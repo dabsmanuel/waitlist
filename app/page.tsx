@@ -31,7 +31,7 @@ const REFERRALS = ['Twitter / X', 'LinkedIn', 'Word of mouth', 'Google search', 
 const HIRING_ROLES = [
   'Frontend Developer', 'Backend Developer', 'Full Stack Developer',
   'Mobile Developer', 'DevOps Engineer', 'Data Engineer',
-  'QA Engineer', 'UI/UX Designer', 'Product Manager'
+  'QA Engineer', 'UI/UX Designer', 'Product Manager', 'Graphics Designer', 'Cybersecurity Specialist', 'AI/ML Engineer', 'Other'
 ];
 
 const INITIAL_FORM: FormData = {
@@ -44,7 +44,7 @@ const INITIAL_FORM: FormData = {
 
 function Label({ children, required }: { children: React.ReactNode; required?: boolean }) {
   return (
-    <label className="block text-xs font-semibold tracking-widest uppercase text-[#A49595] mb-2">
+    <label className="block text-xs font-semibold tracking-widest uppercase text-[#3a3737] mb-2">
       {children}
       {required && <span className="text-[#685EFC] ml-0.5">*</span>}
     </label>
@@ -232,7 +232,7 @@ export default function WaitlistPage() {
           <div className=" bg-[#685EFC] p-2">
             <Image src="/images/juniorforge.avif" alt="JuniorForge" width={54} height={54} className='' />
           </div>
-          <span className="text-xs text-[#A49595] font-medium">
+          <span className="text-xs text-[#646060] font-medium">
             Early Access
           </span>
         </div>
@@ -258,7 +258,7 @@ export default function WaitlistPage() {
               <span className="text-[#685EFC]">that's actually ready.</span>
             </h1>
 
-            <p className="text-base text-[#6b6464] leading-relaxed mb-10 max-w-md">
+            <p className="text-base text-[#3a3737] leading-relaxed mb-10 max-w-md">
               JuniorForge is a curated hiring platform for startups. Every developer in
               our pool has passed a rigorous technical and behavioural assessment before
               you see their profile. No noise. Just vetted talent.
@@ -279,7 +279,7 @@ export default function WaitlistPage() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-[#16252D] mb-0.5">{title}</p>
-                    <p className="text-sm text-[#A49595] leading-snug">{desc}</p>
+                    <p className="text-sm text-[#3a3737] leading-snug">{desc}</p>
                   </div>
                 </li>
               ))}
@@ -316,7 +316,7 @@ export default function WaitlistPage() {
                 <h2 className="text-base font-bold text-[#16252D] tracking-tight">
                   Join the waitlist
                 </h2>
-                <p className="text-xs text-[#A49595] mt-1">
+                <p className="text-xs text-[#6b6767] mt-1">
                   We're opening access in batches. No spam — ever.
                 </p>
               </div>
