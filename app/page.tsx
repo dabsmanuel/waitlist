@@ -229,8 +229,8 @@ export default function WaitlistPage() {
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <header className="border-b border-[#ede9e5] bg-white">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className=" bg-[#685EFC] p-2">
-            <Image src="/images/juniorforge.avif" alt="JuniorForge" width={54} height={54} className='' />
+          <div className=" ">
+            <Image src="/images/Vector.png" alt="JuniorForge" width={100} height={100} className='' />
           </div>
           <span className="text-xs text-[#646060] font-medium">
             Early Access
@@ -482,15 +482,14 @@ export default function WaitlistPage() {
       {/* ── Footer ────────────────────────────────────────────────── */}
       <footer className="border-t border-[#ede9e5] mt-8">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="text-sm font-bold text-[#16252D]">
-            Junior<span className="text-[#685EFC]">Forge</span>
-          </span>
+          <div className=" ">
+            <Image src="/images/Vector.png" alt="JuniorForge" width={100} height={100} className='' />
+          </div>
           <p className="text-xs text-[#A49595]">
             © {new Date().getFullYear()} JuniorForge · Built for startups that hire with intention
           </p>
         </div>
       </footer>
-
     </main>
   );
 }
