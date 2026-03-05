@@ -229,7 +229,7 @@ export default function WaitlistPage() {
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <header className="border-b border-[#ede9e5] bg-white">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="w-full">
+          <div className="flex-1">
             <Image src="/images/Vector.png" alt="JuniorForge" width={80} height={80} className='object-cover' />
           </div>
           <span className="text-xs text-[#646060] font-medium">
@@ -482,7 +482,7 @@ export default function WaitlistPage() {
       {/* ── Footer ────────────────────────────────────────────────── */}
       <footer className="border-t border-[#ede9e5] mt-8">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="w-full">
+          <div className="flex-1">
             <Image src="/images/Vector.png" alt="JuniorForge" width={80} height={80} className='object-cover' />
           </div>
           <p className="text-xs text-[#A49595]">
