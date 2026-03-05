@@ -228,9 +228,9 @@ export default function WaitlistPage() {
 
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <header className="border-b border-[#ede9e5] bg-white">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className=" ">
-            <Image src="/images/Vector.png" alt="JuniorForge" width={100} height={100} className='' />
+        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="w-full">
+            <Image src="/images/Vector.png" alt="JuniorForge" width={80} height={80} className='object-cover' />
           </div>
           <span className="text-xs text-[#646060] font-medium">
             Early Access
@@ -238,7 +238,7 @@ export default function WaitlistPage() {
         </div>
       </header>
 
-      <div className="max-w-5xl mx-auto px-6 py-16 lg:py-24">
+      <div className="max-w-6xl mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-[1fr_420px] gap-16 lg:gap-20 items-start">
 
           {/* ── Left: Copy ──────────────────────────────────────── */}
@@ -482,8 +482,8 @@ export default function WaitlistPage() {
       {/* ── Footer ────────────────────────────────────────────────── */}
       <footer className="border-t border-[#ede9e5] mt-8">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className=" ">
-            <Image src="/images/Vector.png" alt="JuniorForge" width={100} height={100} className='' />
+        <div className="w-full">
+            <Image src="/images/Vector.png" alt="JuniorForge" width={80} height={80} className='object-cover' />
           </div>
           <p className="text-xs text-[#A49595]">
             © {new Date().getFullYear()} JuniorForge · Built for startups that hire with intention
