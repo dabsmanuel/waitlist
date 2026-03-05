@@ -228,7 +228,7 @@ export default function WaitlistPage() {
 
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <header className="border-b border-[#ede9e5] bg-white">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="w-full">
             <Image src="/images/Vector.png" alt="JuniorForge" width={80} height={80} className='object-cover' />
           </div>
@@ -238,7 +238,7 @@ export default function WaitlistPage() {
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-6 py-16 lg:py-24">
+      <div className="max-w-5xl mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-[1fr_420px] gap-16 lg:gap-20 items-start">
 
           {/* ── Left: Copy ──────────────────────────────────────── */}
@@ -268,7 +268,7 @@ export default function WaitlistPage() {
             <ul className="space-y-4 mb-12">
               {[
                 ['Technical scores, not just CVs', 'Every candidate is ranked by assessment tier before entering the pool.'],
-                ['Behavioural AI matching', 'We analyse culture fit, work style, and soft skills — not just stack.'],
+                ['Behavioural AI matching', 'We analyse culture fit, work style, and soft skills, not just stack.'],
                 ['Credit-based, no subscriptions', 'Pay per hire request. No retainers, no wasted budget.']
               ].map(([title, desc]) => (
                 <li key={title} className="flex gap-4">
@@ -317,7 +317,7 @@ export default function WaitlistPage() {
                   Join the waitlist
                 </h2>
                 <p className="text-xs text-[#6b6767] mt-1">
-                  We're opening access in batches. No spam — ever.
+                  We're opening access in batches. No spam, ever.
                 </p>
               </div>
 
